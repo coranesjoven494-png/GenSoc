@@ -1,0 +1,101 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(90deg, #004080, #0080ff);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #004080;
+}
+
+/* Hover boxes for social impacts */
+.hover-box {
+  background: #e0f0ff;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.hover-box:hover {
+  background: #cce0ff;
+  transform: scale(1.05);
+}
+
+/* Timeline styling */
+.timeline {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.event {
+  background: #0080ff;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.event:hover {
+  background: #ff4080;
+  transform: scale(1.1);
+}
+
+/* Quiz buttons */
+button {
+  margin: 5px;
+  padding: 10px;
+  background: #0080ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #0055aa;
+}
+
+/* Footer */
+footer {
+  background: #004080;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
