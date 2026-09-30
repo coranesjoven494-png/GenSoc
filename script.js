@@ -5,7 +5,7 @@ new Chart(ctx, {
   data: {
     labels: ['Male', 'Female'],
     datasets: [{
-      label: 'Labor Force Participation (%)',
+      label: 'Gender Force Participation (%)',
       data: [72.5, 50.5],
       backgroundColor: ['#004080', '#ff4080']
     }]
